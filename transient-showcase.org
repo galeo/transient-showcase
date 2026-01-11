@@ -92,7 +92,7 @@ This is a basic transient, using an anonymous lambda interactive command as its 
 After executing the block above, you can ~execute-extended-command~ (*M-x*) and select ~tsc-hello~ to show this transient.  All transient prefixes are also commands that show up in (*M-x*)
 
 If the example above is hard to read, review some [[info:elisp#Top][elisp]] [[*Essential Elisp][syntax]] and typical forms.
-#+toc: headlines 2
+# #+toc: headlines 2
 * Contents :noexport:
 :PROPERTIES:
 :END:
@@ -2213,7 +2213,7 @@ Revisit the section on [[Detangling with Initialization, Setting, and Saving][de
   ;; applications like magit rapidly adds up.
 
 #+end_src
-    
+
 *** TODO Errata
 Modifying the very outer group doesn't quite work.  It's probably a degenerate layout object, meaning setting a description doesn't cause it to behave like a group with a heading.  Maybe outer groups have a different data structure?  *An exercise left to the reader*
 
